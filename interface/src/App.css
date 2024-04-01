@@ -35,6 +35,13 @@ header{
   gap: 2rem;
   width: 100%;
   height: 100%;
+  overflow-y: scroll ;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+.container::-webkit-scrollbar{
+  display: none;
 }
 
 h1{
@@ -206,8 +213,8 @@ button:hover{
 
 .embeddedMenu iframe{
   border: none;
-  width: 680px;
-  height: 950px;
+  width: 750px;
+  height: 1040px;
 }
 
 /* ------------------- Pages Admin ------------------- */
